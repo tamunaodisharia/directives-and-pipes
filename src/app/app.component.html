@@ -1,1 +1,15 @@
-Task 1
+<section>
+  <h1>Task 1</h1>
+  <section>
+    <h3>Users: {{ users | userNames }}</h3>
+  </section>
+  <section>
+    <ng-container *ngFor="let user of users">
+      <app-user [user]="user"></app-user>
+    </ng-container>
+  </section>
+</section>
+<section>
+  <h1>Task 2</h1>
+  <app-squares> </app-squares>
+</section>

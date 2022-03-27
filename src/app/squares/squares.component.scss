@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(7, 30px);
+  padding: 0 50px;
+  .square {
+    background: red;
+    height: 30px;
+  }
+}

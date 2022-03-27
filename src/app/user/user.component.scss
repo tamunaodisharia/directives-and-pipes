@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2px;
+}
+.card {
+  display: inline-block;
+  width: 250px;
+  height: 110px;
+  margin: 5px;
+}
+h5 {
+  display: inline-block;
+  border: 1px solid;
+}
